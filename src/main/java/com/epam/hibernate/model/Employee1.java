@@ -21,6 +21,8 @@ public class Employee1 {
     @Column(name = "insert_time")
     private Date insertTime;
 
+    private int salary;
+
     public int getId() {
         return id;
     }
@@ -47,6 +49,14 @@ public class Employee1 {
 
     public Date getInsertTime() {
         return insertTime;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
     public void setInsertTime(Date insertTime) {

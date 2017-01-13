@@ -19,6 +19,8 @@
 
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
+        <property name="hibernate.connection.isolation">2</property>
+
         <!-- Mapping with class containing annotations -->
         <mapping class="com.epam.hibernate.model.Employee1"/>
     </session-factory>
